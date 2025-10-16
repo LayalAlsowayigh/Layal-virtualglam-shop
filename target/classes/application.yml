@@ -1,0 +1,38 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: virtualglam-shop
+  datasource:
+    url: jdbc:h2:mem:glamdb;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+---
+spring:
+  config:
+    activate:
+      on-profile: pg
+  datasource:
+    url: jdbc:postgresql://localhost:5432/virtualglam
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+

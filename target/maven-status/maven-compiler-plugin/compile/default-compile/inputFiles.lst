@@ -1,0 +1,15 @@
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/VirtualGlamShopApplication.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/config/DataLoader.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/config/SecurityConfig.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/controller/OrderController.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/controller/ProductController.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/dto/ProductDto.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/entity/Order.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/entity/OrderItem.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/entity/OrderStatus.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/entity/Product.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/exception/GlobalExceptionHandler.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/repository/OrderRepository.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/repository/ProductRepository.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/service/OrderService.java
+/Users/lulu/Layal-virtualglam-shop/src/main/java/com/virtualglamshop/service/ProductService.java

@@ -1,0 +1,15 @@
+com/virtualglamshop/entity/Product.class
+com/virtualglamshop/config/SecurityConfig.class
+com/virtualglamshop/service/ProductService.class
+com/virtualglamshop/repository/ProductRepository.class
+com/virtualglamshop/repository/OrderRepository.class
+com/virtualglamshop/entity/OrderItem.class
+com/virtualglamshop/entity/OrderStatus.class
+com/virtualglamshop/controller/OrderController.class
+com/virtualglamshop/VirtualGlamShopApplication.class
+com/virtualglamshop/entity/Order.class
+com/virtualglamshop/dto/ProductDto.class
+com/virtualglamshop/exception/GlobalExceptionHandler.class
+com/virtualglamshop/config/DataLoader.class
+com/virtualglamshop/controller/ProductController.class
+com/virtualglamshop/service/OrderService.class

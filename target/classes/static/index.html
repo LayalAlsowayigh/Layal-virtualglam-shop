@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Layal Virtual Glam Shop Demo</title>
+  <link rel="stylesheet" href="/styles.css"/>
+  <link rel="icon" href="/images/logo.png"/>
+  <meta name="description" content="Layal Virtual Glam Shop — a student-built Sephora-style demo with a pink/red aesthetic.">
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">
+      <img class="logo-img" src="/images/logo.png" alt="Layal Virtual Glam logo"/>
+      <h1>💄 Layal Virtual Glam Shop Demo</h1>
+    </div>
+    <div class="actions">
+      <input id="search" type="search" placeholder="Search products..."/>
+      <select id="category" aria-label="Filter by category">
+        <option value="all">All Categories</option>
+        <option>Skincare</option>
+        <option>Foundation</option>
+        <option>Powders</option>
+        <option>Sculpt</option>
+        <option>Color</option>
+        <option>Highlight</option>
+        <option>Setting Spray</option>
+      </select>
+      <button id="cartBtn" class="pill">Cart (<span id="cartCount">0</span>)</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="grid" class="grid" aria-live="polite"></div>
+  </main>
+
+  <!-- Cart drawer -->
+  <aside id="cartDrawer" class="drawer hidden" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-header">
+      <h2>Your Cart</h2>
+      <button id="closeCart" class="icon-btn" aria-label="Close cart">✕</button>
+    </div>
+    <ul id="cartItems" class="cart-items"></ul>
+    <div class="drawer-footer">
+      <div id="cartTotal" class="total">Total: $0.00</div>
+      <button id="checkoutBtn" class="checkout">Mock Checkout</button>
+    </div>
+  </aside>
+
+  <div id="toast" class="toast hidden" role="status">Added to cart</div>
+
+  <footer class="footer">
+    <small>© <span id="year"></span> Layal Virtual Glam · Student demo</small>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
+
+  
