@@ -13,3 +13,9 @@ COPY --from=build /app/target/*-SNAPSHOT.jar /app/app.jar
 ENV PORT=8080
 EXPOSE 8080
 ENTRYPOINT ["java","-Dserver.port=${PORT}","-jar","/app/app.jar"]
+FROM eclipse-temurin:21-jdk
+WORKDIR /app
+COPY . .
+RUN ./mvnw -DskipTests clean package
+EXPOSE 8080
+CMD ["java", "-jar", "target/virtualglam-shop-0.0.1-SNAPSHOT.jar"]
