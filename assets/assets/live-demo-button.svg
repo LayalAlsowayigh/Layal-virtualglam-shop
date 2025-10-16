@@ -1,0 +1,25 @@
+<svg width="280" height="64" viewBox="0 0 280 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5fa2"/>
+      <stop offset="1" stop-color="#ff7fb5"/>
+      <animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="pulse">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" result="c"/>
+    </filter>
+  </defs>
+
+  <g>
+    <rect x="10" y="10" rx="18" ry="18" width="260" height="44" fill="url(#btn)"/>
+    <g opacity="0.7">
+      <rect x="10" y="10" rx="18" ry="18" width="260" height="44" fill="#ff5fa2" filter="url(#pulse)">
+        <animate attributeName="opacity" values="0.15;0.65;0.15" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="140" y="38" text-anchor="middle" fill="#ffffff"
+          font-family="Inter, Arial, sans-serif" font-weight="700" font-size="18">🌐 LIVE DEMO</text>
+  </g>
+</svg>
