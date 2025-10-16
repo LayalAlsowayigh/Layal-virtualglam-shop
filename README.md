@@ -3,24 +3,25 @@
 </p>
 
 <h1 align="center">
-  💄 <span style="color:#ff5fa2;">Layal Virtual Glam Shop</span> ✨
-</h1>
+  <p align="center">
+  <img src="assets/title-shimmer.svg" alt="Animated Title – Layal Virtual Glam Shop">
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&pause=1000&color=FF5FA2&center=true&vCenter=true&width=500&lines=Spring+Boot+%7C+Java+21;E-Commerce+Beauty+Demo;Deployed+on+Railway+Cloud" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&pause=1000&color=FF5FA2&center=true&vCenter=true&width=600&lines=Spring+Boot+%7C+Java+21;E-Commerce+Beauty+Demo;Deployed+on+Railway" />
 </p>
 
 <p align="center">
   <a href="https://layal-virtualglam-shop-production-db42.up.railway.app">
-    🌐 <b>Live Demo</b>
+   💄 <b>Live Demo</b>
   </a>
   &nbsp;•&nbsp;
   <a href="https://github.com/LayalAlsowayigh/Layal-virtualglam-shop">
-    💾 <b>Source Code</b>
+    👩‍💻 <b>Source Code</b>
   </a>
 </p>
 
----
+
 
 ## 💋 About the Project
 **Layal Virtual Glam Shop Demo** is a full-stack beauty e-commerce application inspired by *Sephora* — featuring a curated makeup catalog, elegant pink-red UI, and a polished backend built with **Spring Boot 3.4.10 + Java 21**.
