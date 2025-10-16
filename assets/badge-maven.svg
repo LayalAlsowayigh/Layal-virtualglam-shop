@@ -1,0 +1,17 @@
+<svg width="150" height="36" viewBox="0 0 150 36" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gMaven" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5fa2"/>
+      <stop offset="1" stop-color="#ff8fb8"/>
+      <animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" rx="18" ry="18" width="148" height="34" fill="url(#gMaven)"/>
+  <rect x="1" y="1" rx="18" ry="18" width="148" height="34" fill="none" stroke="rgba(255,255,255,.55)"/>
+  <text x="75" y="23" text-anchor="middle"
+        font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#fff">
+    🧰 Maven
+  </text>
+</svg>
