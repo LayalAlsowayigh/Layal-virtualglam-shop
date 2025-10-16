@@ -1,11 +1,14 @@
-FROM maven:3.9.9-eclipse-temurin-21 AS build
+FROM eclipse-temurin:21-jdk AS build
 WORKDIR /app
-COPY pom.xml .
+COPY .mvn/ .mvn/
+COPY mvnw pom.xml ./
+RUN chmod +x mvnw
+RUN ./mvnw -q -DskipTests dependency:go-offline
 COPY src ./src
-RUN mvn -B -DskipTests clean package
+RUN ./mvnw -q -DskipTests package
 FROM eclipse-temurin:21-jre
 WORKDIR /app
 ENV PORT=8080
+COPY --from=build /app/target/*-SNAPSHOT.jar /app/app.jar
 EXPOSE 8080
-COPY --from=build /app/target/virtualglam-shop-0.0.1-SNAPSHOT.jar app.jar
-ENTRYPOINT ["java","-jar","app.jar"]
+CMD ["sh","-c","java -Dserver.port=${PORT:-8080} -jar app.jar"]
