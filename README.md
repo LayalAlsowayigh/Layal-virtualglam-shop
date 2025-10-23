@@ -38,10 +38,15 @@ It pairs a **curated makeup catalog** and elegant REST APIs with an **in-memory 
 
 ---
 
-<table width="100%">
-<tr>
-<td align="center" width="60%">
-  <img src="assets/live-demo-button.svg" alt="Live Demo" width="260">
+
+
+<!-- Live Demo button (clickable) -->
+<p align="center">
+  <a href="https://layal-virtualglam-shop-production-db42.up.railway.app" target="_blank">
+    <img src="assets/live-demo-button.svg" alt="Live Demo" width="260">
+  </a>
+</p>
+
 
 
 ---
